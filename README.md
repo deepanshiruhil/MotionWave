@@ -1,32 +1,33 @@
-# Motion Wave 🌊
-🎹 Control the rhythm with your hands. Powered by machine learning for real-time harmony generation.
+# Motion Wave 
+A website using machine learning neural network that makes use of hands in order to create sounds
 
-Built with Next.js, MediaPipe, and the Web Audio API.
+Try it out [here](https:).
 
-## 🚀 Features
 
-- **Hand Gesture Control**: Use your dominant hand to control pitch and melodic expression via MediaPipe's low-latency hand tracking.
-- **AI-Powered Harmony**: Real-time 4-part SATB (Soprano, Alto, Tenor, Bass) harmony generation using a neural network.
-- **Dynamic Audio Synthesis**: Custom Web Audio API-based vocal synthesis engine with formant filtering for a rich, vocal-like sound.
-- **Interactive Visuals**: A rotating vinyl record aesthetic with real-time hand landmark visualization and wave-based feedback.
-- **Dual-Hand Interaction**: Independent controls for pitch (dominant hand) and volume (non-dominant hand).
+## Features
+- Hand Gesture Control: Control pitch and melodic expression using MediaPipe’s hand tracking.
+- Harmony Generation: Real-time 4-part harmony generation using a neural network.
+- Audio Synthesis: Custom Web Audio API-based vocal synthesis engine with formant filtering.
+- Dual hand interaction: Independent controls for pitch, and volume (dominant and non dominant respectively)
 
-## 🛠️ Tech Stack
-
+## Tech Stack
 ### Core Framework
-- **Next.js 15**: Modern, performant UI framework with App Router support.
-- **React 19**: The latest React features for efficient state management and rendering.
-- **TypeScript**: Type-safe development for complex audio and ML logic.
+- Next.js 15: modern UI+ framework+ app router support 
+- React 19: efficient state managenment + rendering 
+- TypeScript: Type-safe development+ complex audio+ ML logic 
 
-### Machine Learning & Audio
+### ML and Audio
 - **MediaPipe Hands**: Google's low-latency hand tracking for consistent gesture detection.
 - **Web Audio API**: High-performance audio synthesis and digital signal processing.
-- **Web Workers**: Off-thread processing for harmony generation to ensure 60FPS UI performance.
+- **Web Workers**: Off-thread processing to maintain 60FPS UI performance.
 
 ### Styling
 - **Tailwind CSS 4**: Cutting-edge utility-first styling for a premium, vintage aesthetic.
 
-## 🏗️ Project Structure
+Built with Next.js, MediaPipe, and the Web Audio API.
+
+## Project Structure
+
 
 ```
 .
@@ -40,25 +41,8 @@ Built with Next.js, MediaPipe, and the Web Audio API.
 └── package.json        # Project dependencies and scripts
 ```
 
-## 🚦 Prerequisites
+## Prerequisites
 
 - **Node.js** (v18 or higher)
 - **npm** (v9 or higher)
 - **A Webcam** (for hand tracking functionality)
-
-## 🔧 Setup & Installation
-
-### Install Dependencies
-```bash
-npm install
-```
-
-### Run the Development Server
-```bash
-npm run dev
-```
-
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-## 📄 License
-This project is licensed under the GNU General Public License v3.0.
