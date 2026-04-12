@@ -3,7 +3,6 @@ A website using machine learning neural network that makes use of hands in order
 
 Try it out [here](https:).
 
-
 ## Features
 - Hand Gesture Control: Control pitch and melodic expression using MediaPipe’s hand tracking.
 - Harmony Generation: Real-time 4-part harmony generation using a neural network.
